@@ -1,0 +1,145 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;	
+}
+body{
+	background-color: #cecece;
+}
+.title h1{
+	text-transform: uppercase;
+}
+.title .sublinha{
+	width: 350px;
+	height: 3px;
+	border-radius: 3px;
+	background: white;
+	margin-bottom: 10px;
+}
+#interface{
+	background-color:  #fff;
+	width: 1000px;
+	margin: auto;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+/* cabecalho */
+#cabecalho{
+	background-color: #3FA14C;
+	color: #fff;
+}
+#cabecalho div{
+	padding: 30px;
+}
+#cabecalho div img{
+	float: left;
+	width: 60px;
+}
+#cabecalho div h1{
+	text-align: right;
+}
+#cabecalho #menu{
+	background-color: white;
+	border: 1px solid #000;
+	width: 100%;
+}
+#cabecalho #menu ul{
+	list-style: none;
+}
+#cabecalho #menu ul li {
+	display: inline-block;
+}
+#cabecalho #menu ul li a{
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #000;
+}
+#cabecalho #menu ul li a:hover, 
+#cabecalho #menu ul li a:focus{
+	background-color: #3FA14C;
+	color: #fff;
+}
+/* corpo */
+#corpo{
+
+}
+#corpo #home{
+	background-color: #C03437;
+	color: #fff;
+	padding: 52px 80px;
+}
+#corpo #home img{
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+
+	border-radius: 50%;
+	border:  10px solid #fff;
+}
+#corpo #home h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+#corpo #sobre{
+	background-color: #3FA14C;
+	color: #fff;
+	padding: 52px 80px;
+}
+#corpo #sobre img{
+	float: left;
+	margin-right: 10px;
+	border-radius: 5px;
+	border:  5px solid #fff;
+}
+#corpo #sobre p{
+	text-indent: 30px;
+	text-align: justify;
+}
+/*********************************************************
+	CONTINUAÇÃO DO CÓDIGO
+**********************************************************/
+#corpo #contato{
+	background-color: #C03437;
+	color: #fff;
+	padding: 52px 80px;
+}
+#corpo #contato #form_contato{
+	display: inline-block;
+	width: 350px;
+	margin-top: 30px;
+}
+#form_contato>input[type="text"],
+#form_contato>input[type="email"],
+#form_contato>textarea{
+	display: block;
+	width: 100%
+}
+#form_contato>input[type="text"],
+#form_contato>input[type="email"],
+#form_contato>textarea,
+#form_contato>button, 
+#form_contato>input[type="submit"]{
+ 	margin: 2px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 1px solid white;
+	background: #333;
+	color: white;
+}
+#form_contato>button, 
+#form_contato>input[type="submit"]{
+	cursor: pointer;
+}
+#corpo #contato img{
+	width: 400px;
+	float: right;
+	margin-top: 30px;
+	border-radius: 30px;
+	border: 2px solid white;
+}
+
+/* rodape */
+#rodape{
+	background: #3FA14C;
+	padding: 30px 80px;
+}
